@@ -1,4 +1,4 @@
-# John Doe | Data Science Portfolio
+# Pranava Kailash | Data Science Portfolio
 
 This is the source code for my portfolio website, which showcases my Data Science projects hosted on GitHub and Hugging Face. The website is deployed via GitHub Pages and can be accessed [here](https://yourusername.github.io).
 
