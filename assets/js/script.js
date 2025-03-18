@@ -7,7 +7,7 @@ fetch(`https://api.github.com/users/${githubUsername}/repos`)
   .then(repos => {
     repos.forEach(repo => {
       // Exclude the repository named "Pranava-Kailash"
-      if (repo.name !== "Pranava-Kailash") {
+      if (repo.name !== "Pranava-Kailash.github.io" && repo.name !== "Pranava-Kailash") {
         const projectCard = `
           <div class="project-card">
             <h3>${repo.name}</h3>
