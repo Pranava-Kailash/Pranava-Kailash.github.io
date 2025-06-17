@@ -21,8 +21,8 @@ fetch(`https://api.github.com/users/${githubUsername}/repos`)
       }
     });
 
-    // Add "More projects are being added" after all GitHub projects
-    githubProjectsGrid.innerHTML += `<p>More projects are being added...</p>`;
+    // // Add "More projects are being added" after all GitHub projects
+    // githubProjectsGrid.innerHTML += `<p>More projects are being added...</p>`;
   })
   .catch(error => {
     console.error('Error fetching GitHub repositories:', error);
@@ -46,8 +46,8 @@ fetch(`https://huggingface.co/api/models?author=${huggingFaceUsername}`)
       huggingFaceProjectsGrid.innerHTML += projectCard;
     });
 
-    // Add "More models are being added" after all Hugging Face models
-    huggingFaceProjectsGrid.innerHTML += `<p>More models are being added...</p>`;
+    // // Add "More models are being added" after all Hugging Face models
+    // huggingFaceProjectsGrid.innerHTML += `<p>More models are being added...</p>`;
   })
   .catch(error => {
     console.error('Error fetching Hugging Face models:', error);
@@ -70,8 +70,8 @@ fetch(`https://huggingface.co/api/datasets?author=${huggingFaceUsername}`)
       huggingFaceDatasetsGrid.innerHTML += datasetCard;
     });
 
-    // Add "More datasets are being added" after all Hugging Face datasets
-    huggingFaceDatasetsGrid.innerHTML += `<p>More datasets are being added...</p>`;
+    // // Add "More datasets are being added" after all Hugging Face datasets
+    // huggingFaceDatasetsGrid.innerHTML += `<p>More datasets are being added...</p>`;
   })
   .catch(error => {
     console.error('Error fetching Hugging Face datasets:', error);
